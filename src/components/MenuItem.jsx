@@ -1,8 +1,8 @@
 import Link from "next/link";
 import React from "react";
 
-function MenuItem({ text, url }) {
-  const isHome = text === "Home";
+function MenuItem({ title, url }) {
+  const isHome = title === "Home";
 
   return (
     <Link
@@ -11,7 +11,7 @@ function MenuItem({ text, url }) {
         isHome ? "hidden sm:block" : ""
       }`}
     >
-      <div>{text}</div>
+      <div>{title}</div>
     </Link>
   );
 }
