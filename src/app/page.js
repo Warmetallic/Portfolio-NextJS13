@@ -11,7 +11,7 @@ export default function Home() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto justify-center items-center text-sm font-mono">
         <div className="">
           <Typer />
-          <p>I am about to play some bungo</p>
+          <p>I am about to play some bung</p>
         </div>
 
         <div className="sm:w-64 sm:h-64 lg:w-80 lg:h-80 border-2 border-gray-300 rounded-lg overflow-hidden shadow-lg shadow-red-700">
