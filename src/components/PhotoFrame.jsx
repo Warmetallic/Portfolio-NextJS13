@@ -12,7 +12,7 @@ function PhotoFrame(props) {
       <MeshDistortMaterial
         map={texture}
         distort={0.2}
-        speed={2}
+        speed={1}
         attach="material"
         side={DoubleSide}
       />

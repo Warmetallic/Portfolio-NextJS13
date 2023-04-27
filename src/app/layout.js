@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Providers from "./Providers";
+import Threebg from "@/components/Threebg";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Providers>
+          <Threebg />
           <Header />
           {children}
           <Footer />
