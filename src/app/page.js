@@ -8,7 +8,7 @@ import { Canvas } from "@react-three/fiber";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-44">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto justify-center items-center text-sm font-mono">
+      <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-8">
         <div className="min-w-max">
           <Typer />
           <p>I am about to play some bungo</p>
