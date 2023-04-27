@@ -8,7 +8,7 @@ function Header() {
   return (
     <header className="fixed justify-between sm:mx-auto items-center px-24 py-6 w-full dark:bg-gray-900 bg-gray-100 bg-opacity-80 z-40">
       <nav className="flex max-w-6xl mx-auto justify-between">
-        <div className="flex items-center space-x-8 lg:space-x-12 xl:space-x-16">
+        <div className="flex items-center space-x-4 lg:space-x-12 xl:space-x-16">
           <Link href="/" className="h-10 w-10">
             <Image width={60} height={60} src="/logo.svg" alt="logo" />
           </Link>
@@ -16,7 +16,7 @@ function Header() {
           <MenuItem title="Projects" url="/projects" />
           <MenuItem title="About" url="/about" />
         </div>
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-2 pl-4">
           <DarkModeSwitch />
           <span className="font-cursive text-lg sm:hidden text-red-600">
             GK
