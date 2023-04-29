@@ -9,7 +9,11 @@ function Threebg() {
       <div className="w-screen h-screen fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <Canvas camera={{ fov: 25, position: [5, 5, 5] }}>
           <Suspense fallback={null}>
-            <OrbitControls enableZoom={false} enableRotate={false} />
+            <OrbitControls
+              enableZoom={false}
+              enableRotate={false}
+              enablePan={false}
+            />
             <ambientLight intensity={1} />
             <directionalLight position={[3, 2, 1]} />
             <Sphere args={[1, 200, 200]} scale={2}>

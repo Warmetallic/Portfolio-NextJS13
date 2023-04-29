@@ -16,7 +16,11 @@ function PhotoFrame(props) {
         attach="material"
         side={DoubleSide}
       />
-      <OrbitControls enableZoom={false} enableRotate={false} />
+      <OrbitControls
+        enableZoom={false}
+        enableRotate={false}
+        enablePan={false}
+      />
       <ambientLight intensity={0.5} />
       <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} castShadow />
     </mesh>
