@@ -5,8 +5,8 @@ import React, { Suspense } from "react";
 
 function Threebg() {
   return (
-    <div className="flex flex-col justify-center items-center z-0">
-      <div className="w-screen h-screen fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-0">
+    <div className="flex flex-col justify-center items-center">
+      <div className="w-screen h-screen fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <Canvas camera={{ fov: 25, position: [5, 5, 5] }}>
           <Suspense fallback={null}>
             <OrbitControls enableZoom={false} enableRotate={false} />

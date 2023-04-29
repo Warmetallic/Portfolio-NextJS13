@@ -7,8 +7,8 @@ import { Canvas } from "@react-three/fiber";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-44">
-      <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-8">
+    <main className="flex min-h-screen flex-col items-center p-44 space-y-32">
+      <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between bg-gray-100 bg-opacity-80 dark:bg-opacity-80 dark:bg-gray-900 rounded-lg z-10">
         <div className="min-w-max z-10">
           <Typer />
           <p>I am about to play some bungo</p>
@@ -21,6 +21,14 @@ export default function Home() {
             </Canvas>
           </div>
         </div>
+      </div>
+      <div className="flex z-10 space-x-16 lg:space-x-32">
+        <button className="w-28 h-12 bg-gray-100 bg-opacity-80 dark:bg-opacity-80 dark:bg-gray-900 rounded-lg hover:border-2 hover:border-red-300 hover:shadow-red-700 font-bold">
+          CV
+        </button>
+        <button className="w-28 h-12 bg-gray-100 bg-opacity-80 dark:bg-opacity-80 dark:bg-gray-900 rounded-lg hover:border-2 hover:border-red-300 hover:shadow-red-700 font-bold">
+          Contact
+        </button>
       </div>
     </main>
   );

@@ -6,7 +6,7 @@ import DarkModeSwitch from "./DarkModeSwitch";
 
 function Header() {
   return (
-    <header className="fixed justify-between sm:mx-auto items-center px-24 py-6 w-full dark:bg-gray-900 dark:bg-opacity-80 bg-gray-100 bg-opacity-80 z-40">
+    <header className="fixed justify-between sm:mx-auto items-center px-24 py-6 w-full dark:bg-gray-900 dark:bg-opacity-80 bg-gray-100 bg-opacity-80 z-50">
       <nav className="flex max-w-6xl mx-auto justify-between">
         <div className="flex items-center space-x-4 lg:space-x-12 xl:space-x-16">
           <Link href="/" className="h-10 w-10">
