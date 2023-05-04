@@ -11,15 +11,16 @@ function PhotoFrame(props) {
       <planeBufferGeometry args={[10, 10]} />
       <MeshDistortMaterial
         map={texture}
-        distort={0.2}
+        distort={0.25}
         speed={1}
         attach="material"
         side={DoubleSide}
       />
       <OrbitControls
         enableZoom={false}
-        enableRotate={false}
         enablePan={false}
+        autoRotate
+        rotateSpeed={1}
       />
       <ambientLight intensity={0.5} />
       <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} castShadow />

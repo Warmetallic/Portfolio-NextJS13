@@ -2,3 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: 'Blade';
+  src: url('/fonts/blade.ttf') format('truetype');
+  /* Add additional font variants as needed */
+}
+
+@font-face {
+  font-family: 'Help';
+  src: url('/fonts/help.ttf') format('truetype');
+  /* Add additional font variants as needed */
+}
+
+@font-face {
+  font-family: 'Game';
+  src: url('/fonts/game_over.ttf') format('truetype');
+  /* Add additional font variants as needed */
+}
+
+.font-blade {
+  font-family: 'Blade', sans-serif;
+}
+
+.font-help {
+  font-family: 'Help', sans-serif;
+}
+
+.font-game {
+  font-family: 'Game', sans-serif;
+}
+
+.notebook-border {
+  border: 1px solid #ccc;
+  box-shadow: 
+    inset 0px 0px 0px 1px #fff, 
+    inset 0px -2px 0px 0px #ccc;
+}
