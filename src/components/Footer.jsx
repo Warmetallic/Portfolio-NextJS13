@@ -3,7 +3,7 @@ import FooterLogo from "./FooterLogo";
 function Footer() {
   const date = new Date().getFullYear();
   return (
-    <footer className="bg-gray-100 bg-opacity-80 dark:bg-opacity-80 dark:bg-gray-900 px-8 py-3 fixed bottom-0 w-full z-50">
+    <footer className="bg-gray-100 bg-opacity-80 dark:bg-opacity-80 dark:bg-gray-900 px-8 py-3 fixed bottom-0 w-full z-49">
       <div className="max-w-6xl mx-auto flex justify-center items-center space-x-2 pb-2">
         <FooterLogo url={"https://github.com/warmetallic"} />
         <FooterLogo url={"https://www.linkedin.com/in/gleb-kharlamov/"} />

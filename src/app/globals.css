@@ -32,10 +32,3 @@
 .font-game {
   font-family: 'Game', sans-serif;
 }
-
-.notebook-border {
-  border: 1px solid #ccc;
-  box-shadow: 
-    inset 0px 0px 0px 1px #fff, 
-    inset 0px -2px 0px 0px #ccc;
-}

@@ -4,6 +4,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Providers from "./Providers";
 import Threebg from "@/components/Threebg";
+import ChatBot from "@/components/ChatBot";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
         <Providers>
           <Threebg />
           <Header />
+          <ChatBot />
           {children}
           <Footer />
         </Providers>
