@@ -4,10 +4,12 @@ function ChatBot() {
   return (
     <div className="bg-red-300 dark:bg-red-300">
       <Script
+        id="bot1"
         src="https://cdn.botpress.cloud/webchat/v0/inject.js"
         strategy="beforeInteractive"
       />
       <Script
+        id="bot2"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
