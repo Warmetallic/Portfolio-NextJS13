@@ -3,7 +3,7 @@ import React from "react";
 
 function Loading() {
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center p-40">
       <Image height={96} width={96} src="spinner.svg" alt="loading" />
     </div>
   );

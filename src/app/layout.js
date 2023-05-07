@@ -21,9 +21,9 @@ export default function RootLayout({ children }) {
         <Providers>
           <Threebg />
           <Header />
-          <ChatBot />
           {children}
           <Footer />
+          <ChatBot />
         </Providers>
       </body>
     </html>

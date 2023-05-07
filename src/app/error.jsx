@@ -7,7 +7,7 @@ function Error({ error, reset }) {
     console.log(error);
   }, [error]);
   return (
-    <div className="text-center mt-10">
+    <div className="text-center mt-10 p-50">
       <h1>Something went wrong!</h1>
       <button className="hover:text-red-600" onClick={() => reset()}>
         Try Again

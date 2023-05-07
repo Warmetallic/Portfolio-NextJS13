@@ -2,7 +2,7 @@ import Script from "next/script";
 
 function ChatBot() {
   return (
-    <div className="bg-red-300 dark:bg-red-300">
+    <div className="exclude">
       <Script
         id="bot1"
         src="https://cdn.botpress.cloud/webchat/v0/inject.js"
@@ -23,12 +23,16 @@ function ChatBot() {
               "botConversationDescription": "AI Powered by Umbrella Corporation",
               "showBotInfoPage": false,
               "enableConversationDeletion": true,
-              "stylesheet": "https://bot-style.vercel.app/botStyle.css"
+              "stylesheet": "https://bot-style.vercel.app/botStyle.css",
+              "disableAnimations": true,
+              "className": 'my-custom-class',
+              "containerWidth": "100%25",
+              "layoutWidth": "100%25",
+              
             });
           `,
         }}
       />
-      {/* The rest of your page content */}
     </div>
   );
 }
