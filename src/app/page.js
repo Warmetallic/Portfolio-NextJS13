@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-44 space-y-32 overflow-y-scroll">
+    <main className="flex min-h-screen flex-col items-center p-44 space-y-32 overflow-y-scroll z-10">
       <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between bg-gray-100 bg-opacity-80 dark:bg-opacity-80 dark:bg-gray-900 rounded-lg z-10">
         <div className="w-80 z-10 p-2 h-80 space-y-2 text-center">
           <Typer text="Eat" code="01100101 01100001" />
@@ -22,7 +22,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="w-72 h-72 border-2 lg:mr-2 border-red-300 rounded-lg overflow-hidden shadow-lg shadow-red-700 z-10 bg-black">
+        <div className="w-72 h-72 border-2 lg:mr-2 mb-4 border-red-300 rounded-lg overflow-hidden shadow-lg shadow-red-700 z-10 bg-black">
           <div className="relative h-72">
             <Canvas
               style={{ pointerEvents: "none" }}

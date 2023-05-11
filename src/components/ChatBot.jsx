@@ -2,7 +2,7 @@ import Script from "next/script";
 
 function ChatBot() {
   return (
-    <div className="exclude">
+    <div>
       <Script
         id="bot1"
         src="https://cdn.botpress.cloud/webchat/v0/inject.js"
@@ -27,7 +27,7 @@ function ChatBot() {
               "disableAnimations": true,
               "className": 'my-custom-class',
               "containerWidth": "100%25",
-              "layoutWidth": "100%25",
+                "layoutWidth": "100%25",
               
             });
           `,
