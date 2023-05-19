@@ -18,9 +18,7 @@ function Header() {
         </div>
         <div className="flex items-center space-x-2 pl-4">
           <DarkModeSwitch />
-          <span className="font-blade text-4xl text-lg sm:hidden text-red-600">
-            GK
-          </span>
+          <span className="font-blade text-4xl sm:hidden text-red-600">GK</span>
           <span className="font-cursive text-lg hidden sm:inline truncate">
             <span className="text-red-600 font-blade text-4xl">G</span>leb{" "}
             <span className="text-red-600 font-blade text-4xl">K</span>harlamov
