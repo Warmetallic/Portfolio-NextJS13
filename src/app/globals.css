@@ -32,3 +32,7 @@
 .font-game {
   font-family: 'Game', sans-serif;
 }
+
+.custom-border {
+  border-bottom: 1px dashed rgba(156, 163, 175, 0.2);
+}

@@ -13,8 +13,8 @@ function Header() {
             <Image width={60} height={60} src="/logo.svg" alt="logo" />
           </Link>
           <MenuItem title="Home" url="/" />
-          <MenuItem title="Projects" url="/projects" />
           <MenuItem title="About" url="/about" />
+          <MenuItem title="Projects" url="/projects" />
         </div>
         <div className="flex items-center space-x-2 pl-4">
           <DarkModeSwitch />
