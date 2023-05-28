@@ -5,6 +5,7 @@ import Test from "@/components/Test";
 import PhotoFrame from "@/components/PhotoFrame";
 import { Canvas } from "@react-three/fiber";
 import Link from "next/link";
+import DownloadButton from "@/components/DonwloadButton";
 
 export default function Home() {
   return (
@@ -34,9 +35,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex z-10 space-x-16 lg:space-x-32">
-        <button className="w-28 h-12 bg-gray-100 bg-opacity-80 dark:bg-opacity-80 dark:bg-gray-900 rounded-lg hover:border-2 hover:border-red-300 hover:shadow-red-700 font-bold">
-          CV
-        </button>
+        <DownloadButton />
         <Link href="/contact">
           <button className="w-28 h-12 bg-gray-100 bg-opacity-80 dark:bg-opacity-80 dark:bg-gray-900 rounded-lg hover:border-2 hover:border-red-300 hover:shadow-red-700 font-bold">
             Contact

@@ -12,7 +12,9 @@ function Footer() {
         <FooterLogo url={"https://t.me/Warmetallic"} />
       </div>
       <div className="justify-center items-center mx-auto max-w-6xl flex">
-        <p className="text-sm">Copyright © {date}</p>
+        <p className="font-help text-sm">
+          Copyright <span className="text-red-600">©</span> {date}
+        </p>
       </div>
     </footer>
   );
