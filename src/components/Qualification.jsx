@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import Script from "next/script";
 import { BiDownArrow } from "react-icons/bi";
 import { BiUpArrow } from "react-icons/bi";
 import { useState } from "react";
@@ -18,8 +17,6 @@ function Qualification() {
   };
   return (
     <div className="flex-col min-w-full">
-      <Script src="/hide.js" />
-      <Script src="/hide2.js" />
       <div className="flex-col items-center justify-center bg-gray-100 bg-opacity-80 dark:bg-opacity-80 dark:bg-gray-900 rounded-lg z-10  border-y border-dashed border-gray-500 border-opacity-20 pb-4">
         <div className="flex lg:flex-row flex-col items-center justify-center border-y border-dashed border-gray-500 border-opacity-20 p-4">
           <div className="flex flex-col lg:ml-52">
@@ -137,6 +134,8 @@ function Qualification() {
           </div>
         </div>
       </div>
+      <script src="/hide.js" />
+      <script src="/hide2.js" />
     </div>
   );
 }
