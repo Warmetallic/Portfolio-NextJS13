@@ -4,6 +4,7 @@ import React from "react";
 import { BiDownArrow } from "react-icons/bi";
 import { BiUpArrow } from "react-icons/bi";
 import { useState } from "react";
+import Script from "next/script";
 
 function Qualification() {
   const [isOpen, setIsOpen] = useState(false);
@@ -134,8 +135,8 @@ function Qualification() {
           </div>
         </div>
       </div>
-      <script src="/hide.js" />
-      <script src="/hide2.js" />
+      <Script src="/hide.js" />
+      <Script src="/hide2.js" />
     </div>
   );
 }
