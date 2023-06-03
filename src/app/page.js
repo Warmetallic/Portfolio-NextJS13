@@ -38,7 +38,8 @@ export default function Home() {
         <DownloadButton />
         <Link href="/contact">
           <button className="w-28 h-12 bg-gray-100 bg-opacity-80 dark:bg-opacity-80 dark:bg-gray-900 rounded-lg hover:border-2 hover:border-red-300 hover:shadow-red-700 font-bold">
-            Contact
+            <span className=" font-blade text-4xl text-red-700">K</span>ontaс
+            <span className=" font-help text-red-700">T</span>
           </button>
         </Link>
       </div>

@@ -19,9 +19,9 @@ export default function ContactForm() {
       <h1 className="font-game text-4xl text-center p-5 bg-gray-100 bg-opacity-80 dark:bg-opacity-80 dark:bg-gray-900 rounded-t-lg min-w-full">
         Contact
       </h1>
-      <div className="text-center space-y-8 p-5">
+      <div className="text-center space-y-8 p-5 h-96">
         <form
-          className="flex flex-col gap-6 items-center"
+          className="flex flex-col space-y-4 items-center"
           onSubmit={handleSubmit}
         >
           <input

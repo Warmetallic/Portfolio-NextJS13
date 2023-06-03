@@ -1,7 +1,6 @@
 import Qualification from "@/components/Qualification";
 import Skills from "@/components/Skills";
 import React from "react";
-import Script from "next/script";
 
 function page() {
   return (

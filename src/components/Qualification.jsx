@@ -12,9 +12,13 @@ function Qualification() {
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+    const menuList = document.getElementById("menu-list");
+    menuList.style.display = isOpen ? "flex" : "none";
   };
   const toggleMenu2 = () => {
     setIsOpen2(!isOpen2);
+    const menuList2 = document.getElementById("menu-list2");
+    menuList2.style.display = isOpen2 ? "flex" : "none";
   };
   return (
     <div className="flex-col min-w-full">
@@ -135,8 +139,8 @@ function Qualification() {
           </div>
         </div>
       </div>
-      <Script src="/hide.js" />
-      <Script src="/hide2.js" />
+      {/* <Script src="/hide.js" />
+      <Script src="/hide2.js" /> */}
     </div>
   );
 }
