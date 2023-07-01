@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
           <Header />
           {children}
           <Footer />
-          <ChatBot />
+          {/* <ChatBot /> */}
         </Providers>
       </body>
     </html>
