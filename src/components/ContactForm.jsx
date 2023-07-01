@@ -52,7 +52,7 @@ export default function ContactForm() {
             errors={state.errors}
           />
           <button
-            className="font-game text-2xl font-light w-28 h-12 bg-gray-100 bg-opacity-80 dark:bg-opacity-80 dark:bg-gray-900 rounded-lg hover:border-2 hover:border-red-300 hover:shadow-red-700 font-bold"
+            className="font-game text-2xl font-light w-28 h-12 bg-gray-100 bg-opacity-80 dark:bg-opacity-80 dark:bg-gray-900 rounded-lg hover:border-2 hover:border-red-300 hover:shadow-red-700"
             type="submit"
             disabled={state.submitting}
           >
