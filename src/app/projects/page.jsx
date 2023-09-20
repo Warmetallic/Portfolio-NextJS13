@@ -23,25 +23,27 @@ function page() {
                     href={"https://imdb-clone-gleb.vercel.app/"}
                     image={"/img/imdb2.png"}
                     title={"IMDb"}
-                    description={"Check new films!\n"}
+                    description={"Check new films!"}
                   />
                   <Card
-                    href={"https://imdb-clone-gleb.vercel.app/"}
-                    image={"/img/imdb2.png"}
-                    title={"IMDb"}
-                    description={"Check new films!\n"}
+                    href={"https://github.com/Warmetallic/Ninja-Run"}
+                    image={"/img/ninja3.gif"}
+                    title={"Ninja Run"}
+                    description={"Java game project! "}
                   />
                   <Card
-                    href={"https://imdb-clone-gleb.vercel.app/"}
-                    image={"/img/imdb2.png"}
-                    title={"IMDb"}
-                    description={"Check new films!\n"}
+                    href={"https://github.com/Warmetallic/Dead-Wood"}
+                    image={"/img/wood3.gif"}
+                    title={"Dead Woods"}
+                    description={"Processing/Java arcade!"}
                   />
                   <Card
-                    href={"https://imdb-clone-gleb.vercel.app/"}
-                    image={"/img/imdb2.png"}
-                    title={"IMDb"}
-                    description={"Check new films!\n"}
+                    href={"https://github.com/Warmetallic/Space-Simulator"}
+                    image={"/img/space2.gif"}
+                    title={"Space Simulator"}
+                    description={
+                      "C++/OpenGL 2.0 project made to build a solar system"
+                    }
                   />
                 </div>
               </div>
