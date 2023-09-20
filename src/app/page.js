@@ -10,20 +10,20 @@ import DownloadButton from "@/components/DonwloadButton";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-44 space-y-32 overflow-y-scroll z-10">
-      <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between bg-gray-100 bg-opacity-80 dark:bg-opacity-80 dark:bg-gray-900 rounded-lg z-10">
-        <div className="w-80 z-10 p-2 h-80 space-y-2 text-center">
+      <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between  p-4 bg-gray-100 bg-opacity-80 dark:bg-opacity-80 dark:bg-gray-900 rounded-lg z-10">
+        <div className="w-80 z-10 p-4 h-80 space-y-2 text-center">
           <Typer text="Eat" code="01100101 01100001" />
           <Typer text="Code" code="01000011 01101111" />
           <Typer text="Sleep" code="01010011 01101100" />
           <Typer text="01010010 01100101" code="Repeat" />
 
-          <p className="font-serif font-medium py-6">
+          <p className="font-serif font-medium py-6 leading-8">
             Thank you for taking the time to visit my portfolio. I invite you to
             explore my work and learn more about me.
           </p>
         </div>
 
-        <div className="w-72 h-72 border-2 lg:mr-2 mb-4 border-red-300 rounded-lg overflow-hidden shadow-lg shadow-red-700 z-10 bg-black">
+        <div className="w-72 h-72 border-2 lg:mr-4 border-red-300 rounded-lg overflow-hidden shadow-lg shadow-red-700 z-10 bg-black">
           <div className="relative h-72">
             <Canvas
               style={{ pointerEvents: "none" }}

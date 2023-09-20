@@ -26,8 +26,7 @@ function ChatBot() {
               "stylesheet": "https://bot-style.vercel.app/botStyle.css",
               "disableAnimations": true,
               "className": 'my-custom-class',
-              "containerWidth": "100%25",
-                "layoutWidth": "100%25",
+    
               
             });
           `,
