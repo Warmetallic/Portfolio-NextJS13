@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "@/components/Project";
+import Project from "@/components/Project";
 
 function page() {
   return (
@@ -13,31 +13,31 @@ function page() {
             <div className="flex lg:flex-row flex-col items-center justify-center border-y border-dashed border-gray-500 border-opacity-20 p-4">
               <div className="flex flex-col">
                 <div className="sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 max-w-6xl mx-auto py-4">
-                  <Card
+                  <Project
                     href={"https://spotify-beryl-six.vercel.app/"}
                     image={"/img/spotify.png"}
                     title={"Spotify"}
                     description={"Listen to your favorite music!"}
                   />
-                  <Card
+                  <Project
                     href={"https://imdb-clone-gleb.vercel.app/"}
                     image={"/img/imdb2.png"}
                     title={"IMDb"}
                     description={"Check new films!"}
                   />
-                  <Card
+                  <Project
                     href={"https://github.com/Warmetallic/Ninja-Run"}
                     image={"/img/ninja3.gif"}
                     title={"Ninja Run"}
                     description={"Java game project! "}
                   />
-                  <Card
+                  <Project
                     href={"https://github.com/Warmetallic/Dead-Wood"}
                     image={"/img/wood3.gif"}
                     title={"Dead Woods"}
                     description={"Processing/Java arcade!"}
                   />
-                  <Card
+                  <Project
                     href={"https://github.com/Warmetallic/Space-Simulator"}
                     image={"/img/space2.gif"}
                     title={"Space Simulator"}
