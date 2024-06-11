@@ -13,7 +13,7 @@ function Footer() {
       </div>
       <div className="justify-center items-center mx-auto max-w-6xl flex">
         <p className="font-help text-sm">
-          Copyright <span className="text-red-600">©</span> {date}
+          Copyright <span className="text-red-600">©</span> 2024
         </p>
       </div>
     </footer>
